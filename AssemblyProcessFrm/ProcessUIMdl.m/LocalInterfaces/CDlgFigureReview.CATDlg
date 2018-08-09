@@ -1,0 +1,16 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgFigureReview
+{
+  STYLE = CATDlgWndBtnOKCancelPreview|CATDlgGridLayout;
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgFrame Frame001
+{
+  FATHER = CDlgFigureReview;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

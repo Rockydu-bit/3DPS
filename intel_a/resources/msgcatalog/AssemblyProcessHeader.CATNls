@@ -1,0 +1,35 @@
+AssemblyProcessHeader.NewFile.Title = "新建工艺规划";
+AssemblyProcessHeader.NewFile.ShortHelp = "新建工艺规划";
+AssemblyProcessHeader.NewFile.Help = "新建工艺规划";
+
+AssemblyProcessHeader.OpenFile.Title = "打开工艺规划";
+AssemblyProcessHeader.OpenFile.ShortHelp = "打开工艺规划";
+AssemblyProcessHeader.OpenFile.Help = "打开工艺规划";
+
+AssemblyProcessHeader.ProcessTreeModel.Title = "工艺属性";
+AssemblyProcessHeader.ProcessTreeModel.ShortHelp = "工艺属性";
+AssemblyProcessHeader.ProcessTreeModel.Help = "工艺属性";
+
+AssemblyProcessHeader.ProcessModel.Title = "工序属性";
+AssemblyProcessHeader.ProcessModel.ShortHelp = "工序属性";
+AssemblyProcessHeader.ProcessModel.Help = "工序属性";
+
+AssemblyProcessHeader.StepModel.Title = "工步属性";
+AssemblyProcessHeader.StepModel.ShortHelp = "工步属性";
+AssemblyProcessHeader.StepModel.Help = "工步属性";
+
+AssemblyProcessHeader.OutPutProcess.Title = "输出装配工艺";
+AssemblyProcessHeader.OutPutProcess.ShortHelp = "输出装配工艺";
+AssemblyProcessHeader.OutPutProcess.Help = "输出装配工艺";
+
+AssemblyProcessHeader.AddSubtitle.Title = "添加工艺注释";
+AssemblyProcessHeader.AddSubtitle.ShortHelp = "添加工艺注释";
+AssemblyProcessHeader.AddSubtitle.Help = "添加工艺注释";
+
+AssemblyProcessHeader.ModifyBOMTree.Title = "修改BOM工艺树";
+AssemblyProcessHeader.ModifyBOMTree.ShortHelp = "修改BOM工艺树";
+AssemblyProcessHeader.ModifyBOMTree.Help = "修改BOM工艺树";
+
+AssemblyProcessHeader.FilmStarter.Title = "视频播放器";
+AssemblyProcessHeader.FilmStarter.ShortHelp = "视频播放器";
+AssemblyProcessHeader.FilmStarter.Help = "视频播放器";

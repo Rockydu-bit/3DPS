@@ -1,0 +1,10 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "ÐÞ¸ÄBOMÊ÷";
+Frame002.RadioButtonDelete.Title = "Delete";
+Frame002.RadioButtonAfter.Title = "InsertAfter";
+Frame002.RadioButtonChangeName.Title = "Change Name";
+Frame002.LabelName.Title = "Ãû³Æ£º";
+Frame002.RadioButtonBefore.Title = "InsertBefore";
+Frame002.RadioButtonChild.Title = "InsertAsChild";
+FrameBOMTree.Title = "BOMÊ÷";
+// END WIZARD REPLACEMENT ZONE

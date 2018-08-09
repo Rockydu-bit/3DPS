@@ -1,0 +1,145 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgModelProperties
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  COLRES = { 0 };
+}
+
+CATDlgFrame Frame001
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgFraNoTitle|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 10, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton002
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo003
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton004
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo005
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 1, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo006
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 2, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton007
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 2, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton008
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 3, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo009
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 3, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton010
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 6, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo012
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 6, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton013
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 7, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo014
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 7, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton015
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 4, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo016
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 4, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton017
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 5, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo018
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 5, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo020
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 9, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton021
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 9, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButton022
+{
+  FATHER = CDlgModelProperties;
+  GRID = { 8, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo023
+{
+  FATHER = CDlgModelProperties;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 8, 2, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

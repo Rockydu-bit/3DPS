@@ -1,0 +1,15 @@
+DisAssemblyHeader.NewDisAssemblyItem.Title = "新建逆流程项目";
+DisAssemblyHeader.NewDisAssemblyItem.ShortHelp = "新建逆流程项目";
+DisAssemblyHeader.NewDisAssemblyItem.Help = "新建逆流程项目";
+
+DisAssemblyHeader.ModelProperties.Title = "零部件属性";
+DisAssemblyHeader.ModelProperties.ShortHelp = "零部件属性";
+DisAssemblyHeader.ModelProperties.Help = "零部件属性";
+
+DisAssemblyHeader.ModelCredibility.Title = "零部件可信度";
+DisAssemblyHeader.ModelCredibility.ShortHelp = "零部件可信度";
+DisAssemblyHeader.ModelCredibility.Help = "零部件可信度";
+
+DisAssemblyHeader.FuzzyModel.Title = "模糊推理";
+DisAssemblyHeader.FuzzyModel.ShortHelp = "模糊推理";
+DisAssemblyHeader.FuzzyModel.Help = "模糊推理";

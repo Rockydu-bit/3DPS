@@ -1,0 +1,26 @@
+AssemblyProcessHeader.NewFile.Icon.Normal = "NewFile";
+AssemblyProcessHeader.NewFile.LongHelpId = "AssemblyProcessHeader.NewFile";
+
+AssemblyProcessHeader.OpenFile.Icon.Normal = "OpenFile";
+AssemblyProcessHeader.OpenFile.LongHelpId = "AssemblyProcessHeader.OpenFile";
+
+AssemblyProcessHeader.ProcessTreeModel.Icon.Normal = "ProcessTreeModel";
+AssemblyProcessHeader.ProcessTreeModel.LongHelpId = "AssemblyProcessHeader.ProcessTreeModel";
+
+AssemblyProcessHeader.ProcessModel.Icon.Normal = "ProcessModel";
+AssemblyProcessHeader.ProcessModel.LongHelpId = "AssemblyProcessHeader.ProcessModel";
+
+AssemblyProcessHeader.StepModel.Icon.Normal = "StepModel";
+AssemblyProcessHeader.StepModel.LongHelpId = "AssemblyProcessHeader.StepModel";
+
+AssemblyProcessHeader.OutPutProcess.Icon.Normal = "OutPutProcess";
+AssemblyProcessHeader.OutPutProcess.LongHelpId = "AssemblyProcessHeader.OutPutProcess";
+
+AssemblyProcessHeader.AddSubtitle.Icon.Normal = "AddSubtitle";
+AssemblyProcessHeader.AddSubtitle.LongHelpId = "AssemblyProcessHeader.AddSubtitle";
+
+AssemblyProcessHeader.ModifyBOMTree.Icon.Normal = "ModifyBOMTree";
+AssemblyProcessHeader.ModifyBOMTree.LongHelpId = "AssemblyProcessHeader.ModifyBOMTree";
+
+AssemblyProcessHeader.FilmStarter.Icon.Normal = "FilmStarter";
+AssemblyProcessHeader.FilmStarter.LongHelpId = "AssemblyProcessHeader.FilmStarter";

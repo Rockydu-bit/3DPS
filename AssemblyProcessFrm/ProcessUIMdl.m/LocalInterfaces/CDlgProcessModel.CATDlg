@@ -1,0 +1,213 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgProcessModel
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 0 };
+  COLRES = { 0, 1 };
+}
+
+CATDlgFrame Frame100
+{
+  FATHER = CDlgProcessModel;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 1 };
+  COLRES = { 0 };
+}
+
+CATDlgFrame FrameBOMTree
+{
+  FATHER = Frame100;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label015
+{
+  FATHER = Frame100;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabContainer TabContainer002
+{
+  FATHER = CDlgProcessModel;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageProcess
+{
+  FATHER = TabContainer002;
+  STYLE = CATDlgGridLayout;
+  ROWRES = { 2, 3 };
+  COLRES = { 0 };
+}
+
+CATDlgFrame FrameContent
+{
+  FATHER = TabPageProcess;
+  STYLE = CATDlgGridLayout;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorContent
+{
+  FATHER = FrameContent;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameRemark
+{
+  FATHER = TabPageProcess;
+  STYLE = CATDlgGridLayout;
+  GRID = { 3, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorRemark
+{
+  FATHER = FrameRemark;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame104
+{
+  FATHER = TabPageProcess;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+  COLRES = { 3 };
+}
+
+CATDlgLabel LabelNum
+{
+  FATHER = Frame104;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorNum
+{
+  FATHER = Frame104;
+  STYLE = CATDlgEdtReadOnly;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelName
+{
+  FATHER = Frame104;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorName
+{
+  FATHER = Frame104;
+  GRID = { 0, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame108
+{
+  FATHER = TabPageProcess;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+  COLRES = { 3 };
+}
+
+CATDlgLabel LabelBeginTime
+{
+  FATHER = Frame108;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorBeginTime
+{
+  FATHER = Frame108;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelEndTime
+{
+  FATHER = Frame108;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorEndTime
+{
+  FATHER = Frame108;
+  GRID = { 0, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageCheck
+{
+  FATHER = TabContainer002;
+  STYLE = CATDlgGridLayout;
+  ROWRES = { 0, 1 };
+  COLRES = { 0 };
+}
+
+CATDlgFrame FrameCheckContent
+{
+  FATHER = TabPageCheck;
+  STYLE = CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorCheckContent
+{
+  FATHER = FrameCheckContent;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameCheckResult
+{
+  FATHER = TabPageCheck;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorCheckResult
+{
+  FATHER = FrameCheckResult;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame103
+{
+  FATHER = CDlgProcessModel;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonSaveModel
+{
+  FATHER = Frame103;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonSaveFigure
+{
+  FATHER = Frame103;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonReview
+{
+  FATHER = Frame103;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonFigure
+{
+  FATHER = Frame103;
+  GRID = { 0, 3, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

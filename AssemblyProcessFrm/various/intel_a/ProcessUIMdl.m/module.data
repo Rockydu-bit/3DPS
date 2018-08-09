@@ -1,0 +1,5 @@
+!<mkRTViewData> v1.0.0
+INT/000/CUS .\intel_a\code\lib\ProcessUIMdl.exp|.\AssemblyProcessFrm\ProcessUIMdl.m
+RTV/001/CUS .\intel_a\code\bin\ProcessUIMdl.dll|.\AssemblyProcessFrm\ProcessUIMdl.m
+INT/000/CUS .\intel_a\code\bin\ProcessUIMdl.pdb|.\AssemblyProcessFrm\ProcessUIMdl.m
+BTV/000/CUS .\intel_a\code\lib\ProcessUIMdl.lib|.\AssemblyProcessFrm\ProcessUIMdl.m

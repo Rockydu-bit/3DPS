@@ -1,0 +1,12 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "工艺";
+Label001.Title = "工艺名称：";
+Label003.Title = "产品代号：";
+Label005.Title = "组部件名称：";
+Label007.Title = "组部件代号：";
+Label009.Title = "预计作业时长：";
+Label011.Title = "仿真总时长：";
+Label013.Title = "工艺附录：";
+Frame015.Title = "装前检验";
+Frame017.Title = "检验结果";
+// END WIZARD REPLACEMENT ZONE

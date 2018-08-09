@@ -1,0 +1,5 @@
+!<mkRTViewData> v1.0.0
+INT/000/CUS .\intel_a\code\bin\PathManagerMdl.pdb|.\AssemblyProcessFrm\PathManagerMdl.m
+RTV/001/CUS .\intel_a\code\bin\PathManagerMdl.dll|.\AssemblyProcessFrm\PathManagerMdl.m
+INT/000/CUS .\intel_a\code\lib\PathManagerMdl.exp|.\AssemblyProcessFrm\PathManagerMdl.m
+BTV/000/CUS .\intel_a\code\lib\PathManagerMdl.lib|.\AssemblyProcessFrm\PathManagerMdl.m

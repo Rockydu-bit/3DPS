@@ -1,0 +1,3 @@
+Title = "[~CDlgFuzzyModel,Title~ 模糊推理可信度]";
+BOK = "[~CDlgFuzzyModel,BOK~ 生成拆卸序列]";
+BCancel = "[~CDlgFuzzyModel,BCancel~ 取消]";

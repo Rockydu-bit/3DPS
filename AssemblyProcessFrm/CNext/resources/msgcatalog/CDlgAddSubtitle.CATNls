@@ -1,0 +1,20 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "添加工艺注释";
+BOK = "保存";
+TabContainerAddNote.TabPageAddSubtitle.Title = "添加字幕";
+TabContainerAddNote.TabPageAddSubtitle.Frame013.LabelStart.Title = "开始时间：";
+TabContainerAddNote.TabPageAddSubtitle.Frame013.LabelEnd.Title = "结束时间：";
+TabContainerAddNote.TabPageAddSubtitle.Frame013.PushButtonVideoAddress.Title = "视频地址：";
+TabContainerAddNote.TabPageAddSubtitle.FrameSubtitle.Title = "字幕";
+TabContainerAddNote.TabPageSettings.Title = "设置";
+TabContainerAddNote.TabPageSettings.FrameType.Title = "字体(F)：";
+TabContainerAddNote.TabPageSettings.FrameColor.Title = "颜色(C)：";
+TabContainerAddNote.TabPageSettings.FrameSize.Title = "大小(S)：";
+TabContainerAddNote.TabPageSettings.FrameFigure.Title = "字形(Y)：";
+TabContainerAddNote.TabPageSettings.Frame022.CheckButtonAll.Title = "显示所有工序内容";
+TabContainerAddNote.TabPageSettings.Frame022.CheckButtonOne.Title = "仅显示当前工序内容";
+TabContainerAddNote.TabPageSettings.Frame022.PushButtonSave.Title = "保存设置";
+TabContainerAddNote.TabPageSettings.FramePosition.Title = "位置(P)：";
+Frame005.FrameMove.Title = "Move";
+Frame005.Label007.Title = "                                                              ";
+// END WIZARD REPLACEMENT ZONE

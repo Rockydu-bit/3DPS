@@ -1,0 +1,5 @@
+!<mkRTViewData> v1.0.0
+RTV/001/CUS .\intel_a\code\bin\DisAssemblyUIMdl.dll|.\AssemblyProcessFrm\DisAssemblyUIMdl.m
+INT/000/CUS .\intel_a\code\bin\DisAssemblyUIMdl.pdb|.\AssemblyProcessFrm\DisAssemblyUIMdl.m
+BTV/000/CUS .\intel_a\code\lib\DisAssemblyUIMdl.lib|.\AssemblyProcessFrm\DisAssemblyUIMdl.m
+INT/000/CUS .\intel_a\code\lib\DisAssemblyUIMdl.exp|.\AssemblyProcessFrm\DisAssemblyUIMdl.m

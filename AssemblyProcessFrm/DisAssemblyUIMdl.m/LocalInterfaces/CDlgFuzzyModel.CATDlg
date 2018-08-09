@@ -1,0 +1,23 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgFuzzyModel
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 0 };
+  COLRES = { 0, 1 };
+}
+
+CATDlgFrame Frame001
+{
+  FATHER = CDlgFuzzyModel;
+  STYLE = CATDlgFraNoTitle|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame002
+{
+  FATHER = CDlgFuzzyModel;
+  STYLE = CATDlgFraNoTitle|CATDlgGridLayout;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

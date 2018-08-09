@@ -1,0 +1,134 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgProcessTreeModel
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 0, 4 };
+  COLRES = { 0, 1 };
+}
+
+CATDlgLabel Label001
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor Editor002
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label003
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor Editor004
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 0, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label005
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor Editor006
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label007
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 1, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor Editor008
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 1, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label009
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor Editor010
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 2, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label011
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 2, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor Editor012
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 2, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label013
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 3, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor Editor014
+{
+  FATHER = CDlgProcessTreeModel;
+  GRID = { 3, 1, 3, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame015
+{
+  FATHER = CDlgProcessTreeModel;
+  STYLE = CATDlgGridLayout;
+  GRID = { 4, 0, 4, 1, CATGRID_4SIDES };
+  ROWRES = { 1 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor Editor016
+{
+  FATHER = Frame015;
+  STYLE = CATDlgEdtMultiline;
+  TH = 6;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo Combo020
+{
+  FATHER = Frame015;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame017
+{
+  FATHER = CDlgProcessTreeModel;
+  STYLE = CATDlgGridLayout;
+  GRID = { 5, 0, 4, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor Editor018
+{
+  FATHER = Frame017;
+  STYLE = CATDlgEdtMultiline;
+  TH = 6;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

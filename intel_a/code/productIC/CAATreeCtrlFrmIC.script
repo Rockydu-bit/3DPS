@@ -1,0 +1,11 @@
+<I.C SCRIPT>  WINNT 1
+M8 1 "" ""
+M1 2 System,2
+M1 2 Dialog,2
+M1 2 ApplicationFrame,1
+M1 2 ObjectModelerBase,2
+M1 2 CATIAApplicationFrame,2
+M1 2 ProcessPlatformVisu,2
+M1 2 DialogEngine,2
+M1 2 Mathematics,2
+EOF

@@ -1,0 +1,5 @@
+/I"D:\3DPS-256\.\AssemblyProcessFrm\DisAssemblyUIMdl.m\src"
+/I"D:\3DPS-256\.\AssemblyProcessFrm\DisAssemblyUIMdl.m\LocalInterfaces"
+/I"D:\3DPS-256\.\AssemblyProcessFrm\DisAssemblyUIMdl.m\LocalGenerated\intel_a"
+/I"D:\3DPS-256\.\AssemblyProcessFrm\PublicInterfaces"
+/I"D:\3DPS-256\.\AssemblyProcessFrm\ImportedInterfaces\intel_a"

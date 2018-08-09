@@ -1,0 +1,13 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "零部件属性";
+CheckButton002.Title = "密封件";
+CheckButton004.Title = "精测件";
+CheckButton007.Title = "焊接件";
+CheckButton008.Title = "铆接件";
+CheckButton010.Title = "高精度";
+CheckButton013.Title = "大重量";
+CheckButton015.Title = "线缆束";
+CheckButton017.Title = "电子器件";
+CheckButton021.Title = "其他";
+CheckButton022.Title = "大体积";
+// END WIZARD REPLACEMENT ZONE

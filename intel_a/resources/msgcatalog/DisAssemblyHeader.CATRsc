@@ -1,0 +1,12 @@
+DisAssemblyHeader.NewDisAssemblyItem.Icon.Normal = "NewDisAssemblyItem";
+DisAssemblyHeader.NewDisAssemblyItem.LongHelpId = "DisAssemblyHeader.NewDisAssemblyItem";
+
+DisAssemblyHeader.ModelProperties.Icon.Normal = "ModelProperties";
+DisAssemblyHeader.ModelProperties.LongHelpId = "DisAssemblyHeader.ModelProperties";
+
+DisAssemblyHeader.ModelCredibility.Icon.Normal = "ModelCredibility";
+DisAssemblyHeader.ModelCredibility.LongHelpId = "DisAssemblyHeader.ModelCredibility";
+
+DisAssemblyHeader.FuzzyModel.Icon.Normal = "FuzzyModel";
+DisAssemblyHeader.FuzzyModel.LongHelpId = "DisAssemblyHeader.FuzzyModel";
+

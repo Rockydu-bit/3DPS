@@ -1,0 +1,157 @@
+/ DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgBITCgrConversion
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 4 };
+  COLRES = { 0, 1 };
+}
+
+CATDlgEditor EditorCGRAddress
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonCGRAddress
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 2, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameMacroAddress
+{
+  FATHER = CDlgBITCgrConversion;
+  STYLE = CATDlgGridLayout;
+  GRID = { 3, 0, 2, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorMacroAddress
+{
+  FATHER = FrameMacroAddress;
+  STYLE = CATDlgEdtReadOnly;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameCurrentMarcoCode
+{
+  FATHER = CDlgBITCgrConversion;
+  STYLE = CATDlgGridLayout;
+  GRID = { 4, 0, 2, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorCurrentMarcoCode
+{
+  FATHER = FrameCurrentMarcoCode;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonProduct
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonPart
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorCATPartFile
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonBrowsePart
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE
+
+// THE CAA2 WIZARDS HAS INSERTED CODE AT THE BOTTOM OF THIS FILE
+// YOU MAY HAVE TO RELOCATE THIS SOURCE IF COMPILATION FAILS
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgBITCgrConversion
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 4 };
+  COLRES = { 0, 1 };
+}
+
+CATDlgEditor EditorCGRAddress
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonCGRAddress
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 2, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameMacroAddress
+{
+  FATHER = CDlgBITCgrConversion;
+  STYLE = CATDlgGridLayout;
+  GRID = { 3, 0, 2, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorMacroAddress
+{
+  FATHER = FrameMacroAddress;
+  STYLE = CATDlgEdtReadOnly;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameCurrentMarcoCode
+{
+  FATHER = CDlgBITCgrConversion;
+  STYLE = CATDlgGridLayout;
+  GRID = { 4, 0, 2, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorCurrentMarcoCode
+{
+  FATHER = FrameCurrentMarcoCode;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonProduct
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonPart
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorCATPartFile
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonBrowsePart
+{
+  FATHER = CDlgBITCgrConversion;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

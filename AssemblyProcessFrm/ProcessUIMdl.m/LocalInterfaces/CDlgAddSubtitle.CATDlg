@@ -1,0 +1,235 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgAddSubtitle
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 0 };
+  COLRES = { 1 };
+}
+
+CATDlgTabContainer TabContainerAddNote
+{
+  FATHER = CDlgAddSubtitle;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageAddSubtitle
+{
+  FATHER = TabContainerAddNote;
+  STYLE = CATDlgGridLayout;
+  ROWRES = { 1 };
+  COLRES = { 0 };
+}
+
+CATDlgFrame Frame013
+{
+  FATHER = TabPageAddSubtitle;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 1 };
+  COLRES = { 1, 3 };
+}
+
+CATDlgEditor EditorVideoAddress
+{
+  FATHER = Frame013;
+  GRID = { 1, 1, 3, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelStart
+{
+  FATHER = Frame013;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorStart
+{
+  FATHER = Frame013;
+  TW = 3;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelEnd
+{
+  FATHER = Frame013;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorEnd
+{
+  FATHER = Frame013;
+  TW = 3;
+  GRID = { 0, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonVideoAddress
+{
+  FATHER = Frame013;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameSubtitle
+{
+  FATHER = TabPageAddSubtitle;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorSubtitle
+{
+  FATHER = FrameSubtitle;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageSettings
+{
+  FATHER = TabContainerAddNote;
+  STYLE = CATDlgGridLayout;
+  COLRES = { 0, 1 };
+}
+
+CATDlgFrame FrameType
+{
+  FATHER = TabPageSettings;
+  STYLE = CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgCombo ComboType
+{
+  FATHER = FrameType;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameColor
+{
+  FATHER = TabPageSettings;
+  STYLE = CATDlgGridLayout;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+  COLRES = { 0 };
+}
+
+CATDlgCombo ComboColor
+{
+  FATHER = FrameColor;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameSize
+{
+  FATHER = TabPageSettings;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgCombo ComboSize
+{
+  FATHER = FrameSize;
+  TH = 5;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameFigure
+{
+  FATHER = TabPageSettings;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgCombo ComboFigure
+{
+  FATHER = FrameFigure;
+  TH = 5;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame022
+{
+  FATHER = TabPageSettings;
+  STYLE = CATDlgFraNoTitle|CATDlgGridLayout;
+  GRID = { 2, 1, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgCombo ComboContentSize
+{
+  FATHER = Frame022;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButtonAll
+{
+  FATHER = Frame022;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCombo ComboContentPosition
+{
+  FATHER = Frame022;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 3, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButtonOne
+{
+  FATHER = Frame022;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonSave
+{
+  FATHER = Frame022;
+  GRID = { 4, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FramePosition
+{
+  FATHER = TabPageSettings;
+  STYLE = CATDlgGridLayout;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgCombo ComboPosition
+{
+  FATHER = FramePosition;
+  TH = 5;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame005
+{
+  FATHER = CDlgAddSubtitle;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 1 };
+  COLRES = { 0 };
+}
+
+CATDlgFrame FrameMove
+{
+  FATHER = Frame005;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Label007
+{
+  FATHER = Frame005;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

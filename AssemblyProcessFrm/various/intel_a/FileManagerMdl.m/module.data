@@ -1,0 +1,5 @@
+!<mkRTViewData> v1.0.0
+BTV/000/CUS .\intel_a\code\lib\FileManagerMdl.lib|.\AssemblyProcessFrm\FileManagerMdl.m
+RTV/001/CUS .\intel_a\code\bin\FileManagerMdl.dll|.\AssemblyProcessFrm\FileManagerMdl.m
+INT/000/CUS .\intel_a\code\bin\FileManagerMdl.pdb|.\AssemblyProcessFrm\FileManagerMdl.m
+INT/000/CUS .\intel_a\code\lib\FileManagerMdl.exp|.\AssemblyProcessFrm\FileManagerMdl.m

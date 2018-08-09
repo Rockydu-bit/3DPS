@@ -1,0 +1,65 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgModifyProperties
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgFrame Frame002
+{
+  FATHER = CDlgModifyProperties;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonDelete
+{
+  FATHER = Frame002;
+  GRID = { 3, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonAfter
+{
+  FATHER = Frame002;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonChangeName
+{
+  FATHER = Frame002;
+  GRID = { 4, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelName
+{
+  FATHER = Frame002;
+  GRID = { 6, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorName
+{
+  FATHER = Frame002;
+  GRID = { 7, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonBefore
+{
+  FATHER = Frame002;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgRadioButton RadioButtonChild
+{
+  FATHER = Frame002;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameBOMTree
+{
+  FATHER = CDlgModifyProperties;
+  STYLE = CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

@@ -1,0 +1,8 @@
+Title = "[十CDlgModifyProperties,Title十一構ソチ－ﾐﾞｸﾄBOMﾊ";
+FrameBOMTree.Title = "[十CDlgModifyProperties,FrameBOMTree.Title十一構ソチ－BOMﾊ";
+Frame002.LabelName.Title = "[十CDlgModifyProperties,Frame002.LabelName.Title十一構ソチ－ﾃ﨤ﾆ｣ｺ]";
+Frame002.RadioButtonChild.Title = "[十CDlgModifyProperties,Frame002.RadioButtonChild.Title十一構ソチ－InsertAsChild]";
+Frame002.RadioButtonBefore.Title = "[十CDlgModifyProperties,Frame002.RadioButtonBefore.Title十一構ソチ－InsertBefore]";
+Frame002.RadioButtonDelete.Title = "[十CDlgModifyProperties,Frame002.RadioButtonDelete.Title十一構ソチ－Delete]";
+Frame002.RadioButtonAfter.Title = "[十CDlgModifyProperties,Frame002.RadioButtonAfter.Title十一構ソチ－InsertAfter]";
+Frame002.RadioButtonChangeName.Title = "[十CDlgModifyProperties,Frame002.RadioButtonChangeName.Title十一構ソチ－Change Name]";

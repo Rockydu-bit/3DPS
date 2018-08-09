@@ -1,0 +1,9 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "CGR批量转换";
+PushButtonCGRAddress.Title = "保存CGR地址";
+FrameMacroAddress.Title = "宏命令地址";
+FrameCurrentMarcoCode.Title = "当前宏命令";
+RadioButtonProduct.Title = "Product";
+RadioButtonPart.Title = "Part";
+PushButtonBrowsePart.Title = "打开Part";
+// END WIZARD REPLACEMENT ZONE

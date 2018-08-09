@@ -1,0 +1,52 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgOutputFile
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+}
+
+CATDlgFrame Frame006
+{
+  FATHER = CDlgOutputFile;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButtonProcess
+{
+  FATHER = Frame006;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButtonParts
+{
+  FATHER = Frame006;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgCheckButton CheckButtonProcessEqui
+{
+  FATHER = Frame006;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame007
+{
+  FATHER = CDlgOutputFile;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorAddress
+{
+  FATHER = Frame007;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonBrowser
+{
+  FATHER = Frame007;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

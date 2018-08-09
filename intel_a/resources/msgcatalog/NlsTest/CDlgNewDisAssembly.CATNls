@@ -1,0 +1,6 @@
+Title = "[~CDlgNewDisAssembly,Title~ 新建逆流程项目]";
+BOK = "[~CDlgNewDisAssembly,BOK~ 反转工艺]";
+Label002.Title = "[~CDlgNewDisAssembly,Label002.Title~ 当前或最后一个零部件：]";
+Label004.Title = "[~CDlgNewDisAssembly,Label004.Title~ 目标拆卸零部件：]";
+PushButton007.Title = "[~CDlgNewDisAssembly,PushButton007.Title~ 浏览]";
+PushButton006.Title = "[~CDlgNewDisAssembly,PushButton006.Title~ 浏览]";

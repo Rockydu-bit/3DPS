@@ -1,0 +1,6 @@
+!<mkRTViewData> v1.0.0
+RTV/002/DSI .\intel_a\code\productIC\CAATreeCtrlFrmIC.required|.\CAATreeCtrlFrm
+BTV/002/CUS .\intel_a\code\productIC\CAATreeCtrlFrmIC.script|.\CAATreeCtrlFrm
+DAT/002/CUS .\intel_a\code\dictionary\CAATreeCtrlFrm.dico|.\CAATreeCtrlFrm\CNext\code\dictionary\CAATreeCtrlFrm.dico
+DAT/002/CUS .\intel_a\graphic\Icons\Normal\Activity.bmp|.\CAATreeCtrlFrm\CNext\graphic\Icons\Normal\Activity.bmp
+BTV/002/DSI .\intel_a\code\productIC\CAATreeCtrlFrmIC.xml|.\CAATreeCtrlFrm

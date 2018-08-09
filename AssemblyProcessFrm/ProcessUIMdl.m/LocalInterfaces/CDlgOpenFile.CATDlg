@@ -1,0 +1,35 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgOpenFile
+{
+  STYLE = CATDlgWndModal|CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  COLRES = { 0, 1 };
+}
+
+CATDlgEditor EditorOpenFolder
+{
+  FATHER = CDlgOpenFile;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonOpenFolder
+{
+  FATHER = CDlgOpenFile;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameHistory
+{
+  FATHER = CDlgOpenFile;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 0, 2, 1, CATGRID_4SIDES };
+  COLRES = { 0 };
+}
+
+CATDlgCombo ComboHistory
+{
+  FATHER = FrameHistory;
+  STYLE = CATDlgCmbDropDown;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

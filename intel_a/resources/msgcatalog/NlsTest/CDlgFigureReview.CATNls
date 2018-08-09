@@ -1,0 +1,4 @@
+Title = "[~CDlgFigureReview,Title~ 工序附图]";
+BOK = "[~CDlgFigureReview,BOK~ 上一个]";
+BCancel = "[~CDlgFigureReview,BCancel~ 下一个]";
+BPreview = "[~CDlgFigureReview,BPreview~ 删除]";

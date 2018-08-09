@@ -1,0 +1,5 @@
+!<mkRTViewData> v1.0.0
+RTV/001/CUS .\intel_a\code\bin\ktTreeCtrlFrameUUID.dll|.\CAATreeCtrlFrm\ktTreeCtrlFrameUUID.m
+INT/000/CUS .\intel_a\code\lib\ktTreeCtrlFrameUUID.exp|.\CAATreeCtrlFrm\ktTreeCtrlFrameUUID.m
+INT/000/CUS .\intel_a\code\bin\ktTreeCtrlFrameUUID.pdb|.\CAATreeCtrlFrm\ktTreeCtrlFrameUUID.m
+BTV/000/CUS .\intel_a\code\lib\ktTreeCtrlFrameUUID.lib|.\CAATreeCtrlFrm\ktTreeCtrlFrameUUID.m

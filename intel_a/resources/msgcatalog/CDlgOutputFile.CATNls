@@ -1,0 +1,8 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "装配工艺";
+BOK = "输出";
+Frame006.CheckButtonProcess.Title = "装配工艺卡";
+Frame006.CheckButtonParts.Title = "配套明细表";
+Frame006.CheckButtonProcessEqui.Title = "工艺装备明细表";
+Frame007.PushButtonBrowser.Title = "浏览";
+// END WIZARD REPLACEMENT ZONE

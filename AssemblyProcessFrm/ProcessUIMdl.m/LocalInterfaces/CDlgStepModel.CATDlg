@@ -1,0 +1,332 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog CDlgStepModel
+{
+  STYLE = CATDlgWndBtnOKCancel|CATDlgGridLayout;
+  ROWRES = { 0 };
+  COLRES = { 0, 1 };
+}
+
+CATDlgTabContainer TabContainer001
+{
+  FATHER = CDlgStepModel;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageStep
+{
+  FATHER = TabContainer001;
+  STYLE = CATDlgGridLayout;
+  ROWRES = { 2, 3 };
+  COLRES = { 3 };
+}
+
+CATDlgLabel LabelStepNum
+{
+  FATHER = TabPageStep;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorStepNum
+{
+  FATHER = TabPageStep;
+  STYLE = CATDlgEdtReadOnly;
+  TW = 4;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelStepName
+{
+  FATHER = TabPageStep;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorStepName
+{
+  FATHER = TabPageStep;
+  GRID = { 0, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelBeginTime
+{
+  FATHER = TabPageStep;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorBeginTime
+{
+  FATHER = TabPageStep;
+  TW = 4;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelEndTime
+{
+  FATHER = TabPageStep;
+  GRID = { 1, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorEndTime
+{
+  FATHER = TabPageStep;
+  GRID = { 1, 3, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameStepContent
+{
+  FATHER = TabPageStep;
+  STYLE = CATDlgGridLayout;
+  GRID = { 2, 0, 4, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorStepContent
+{
+  FATHER = FrameStepContent;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameStepRemark
+{
+  FATHER = TabPageStep;
+  STYLE = CATDlgGridLayout;
+  GRID = { 3, 0, 4, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorStepRemark
+{
+  FATHER = FrameStepRemark;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageStepMaterial
+{
+  FATHER = TabContainer001;
+  STYLE = CATDlgGridLayout;
+  ROWRES = { 2 };
+  COLRES = { 1 };
+}
+
+CATDlgLabel LabelMaterialNum
+{
+  FATHER = TabPageStepMaterial;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorMaterialNum
+{
+  FATHER = TabPageStepMaterial;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelMaterialName
+{
+  FATHER = TabPageStepMaterial;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorMaterialName
+{
+  FATHER = TabPageStepMaterial;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameMaterialRemark
+{
+  FATHER = TabPageStepMaterial;
+  STYLE = CATDlgGridLayout;
+  GRID = { 2, 0, 2, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorMaterialRemark
+{
+  FATHER = FrameMaterialRemark;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageEquiAndTool
+{
+  FATHER = TabContainer001;
+  STYLE = CATDlgGridLayout;
+  ROWRES = { 7 };
+  COLRES = { 1 };
+}
+
+CATDlgLabel LabelEquiName
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorEquiName
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelEquiVersion
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorEquiVersion
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelEquiNum
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorEquiNum
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 2, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelSpecEqui
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 3, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorSpecEqui
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 3, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelSpecTool
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 4, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorSpecTool
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 4, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelSpecFixture
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 5, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorSpecFixture
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 5, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel LabelSpecGage
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 6, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgEditor EditorSpecGage
+{
+  FATHER = TabPageEquiAndTool;
+  GRID = { 6, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameEquiRemark
+{
+  FATHER = TabPageEquiAndTool;
+  STYLE = CATDlgGridLayout;
+  GRID = { 7, 0, 2, 1, CATGRID_4SIDES };
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgEditor EditorEquiRemark
+{
+  FATHER = FrameEquiRemark;
+  STYLE = CATDlgEdtMultiline;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgTabPage TabPageOperations
+{
+  FATHER = TabContainer001;
+  STYLE = CATDlgGridLayout;
+  ROWRES = { 0 };
+  COLRES = { 0 };
+}
+
+CATDlgMultiList MultiListPartDetails
+{
+  FATHER = TabPageOperations;
+  CC = 4;
+  VCC = 4;
+  COLWTH = { 0, 8, 1, 10, 2, 3, 3, 3 };
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame019
+{
+  FATHER = CDlgStepModel;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+  ROWRES = { 1 };
+  COLRES = { 0 };
+}
+
+CATDlgLabel Label020
+{
+  FATHER = Frame019;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame FrameTree
+{
+  FATHER = Frame019;
+  STYLE = CATDlgGridLayout;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgFrame Frame021
+{
+  FATHER = CDlgStepModel;
+  STYLE = CATDlgFraNoFrame|CATDlgGridLayout;
+  GRID = { 1, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonSaveStepModel
+{
+  FATHER = Frame021;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonReviewStepModel
+{
+  FATHER = Frame021;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonSaveStepFigure
+{
+  FATHER = Frame021;
+  GRID = { 0, 2, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgPushButton PushButtonReviewStepFigure
+{
+  FATHER = Frame021;
+  GRID = { 0, 3, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE

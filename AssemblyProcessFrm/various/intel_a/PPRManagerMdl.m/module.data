@@ -1,0 +1,5 @@
+!<mkRTViewData> v1.0.0
+INT/000/CUS .\intel_a\code\bin\PPRManagerMdl.pdb|.\AssemblyProcessFrm\PPRManagerMdl.m
+BTV/000/CUS .\intel_a\code\lib\PPRManagerMdl.lib|.\AssemblyProcessFrm\PPRManagerMdl.m
+RTV/001/CUS .\intel_a\code\bin\PPRManagerMdl.dll|.\AssemblyProcessFrm\PPRManagerMdl.m
+INT/000/CUS .\intel_a\code\lib\PPRManagerMdl.exp|.\AssemblyProcessFrm\PPRManagerMdl.m

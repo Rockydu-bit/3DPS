@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<IdentityCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='ICschema.xsd' >
+<OperatingSystem>WINNT</OperatingSystem>
+<Type>Code</Type>
+<SetCopyright>&quot;&quot; &quot;&quot;</SetCopyright>
+
+<AddPrereqComponent>
+<Target>System</Target>
+<Access>Protected</Access>
+</AddPrereqComponent>
+
+<AddPrereqComponent>
+<Target>Dialog</Target>
+<Access>Protected</Access>
+</AddPrereqComponent>
+
+<AddPrereqComponent>
+<Target>ApplicationFrame</Target>
+<Access>Public</Access>
+</AddPrereqComponent>
+
+<AddPrereqComponent>
+<Target>ObjectModelerBase</Target>
+<Access>Protected</Access>
+</AddPrereqComponent>
+
+<AddPrereqComponent>
+<Target>CATIAApplicationFrame</Target>
+<Access>Protected</Access>
+</AddPrereqComponent>
+
+<AddPrereqComponent>
+<Target>ProcessPlatformVisu</Target>
+<Access>Protected</Access>
+</AddPrereqComponent>
+
+<AddPrereqComponent>
+<Target>DialogEngine</Target>
+<Access>Protected</Access>
+</AddPrereqComponent>
+
+<AddPrereqComponent>
+<Target>Mathematics</Target>
+<Access>Protected</Access>
+</AddPrereqComponent>
+
+</IdentityCard>

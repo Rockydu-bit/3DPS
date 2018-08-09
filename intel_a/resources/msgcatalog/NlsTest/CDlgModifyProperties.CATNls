@@ -1,0 +1,8 @@
+Title = "[~CDlgModifyProperties,Title~ ÐÞ¸ÄBOMÊ÷]";
+FrameBOMTree.Title = "[~CDlgModifyProperties,FrameBOMTree.Title~ BOMÊ÷]";
+Frame002.LabelName.Title = "[~CDlgModifyProperties,Frame002.LabelName.Title~ Ãû³Æ£º]";
+Frame002.RadioButtonChild.Title = "[~CDlgModifyProperties,Frame002.RadioButtonChild.Title~ InsértAsChîld]";
+Frame002.RadioButtonBefore.Title = "[~CDlgModifyProperties,Frame002.RadioButtonBefore.Title~ InsértBeføre]";
+Frame002.RadioButtonDelete.Title = "[~CDlgModifyProperties,Frame002.RadioButtonDelete.Title~ Délete]";
+Frame002.RadioButtonAfter.Title = "[~CDlgModifyProperties,Frame002.RadioButtonAfter.Title~ InsértAfter]";
+Frame002.RadioButtonChangeName.Title = "[~CDlgModifyProperties,Frame002.RadioButtonChangeName.Title~ Chångé Name]";

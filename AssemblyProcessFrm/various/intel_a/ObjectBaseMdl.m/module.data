@@ -1,0 +1,5 @@
+!<mkRTViewData> v1.0.0
+INT/000/CUS .\intel_a\code\lib\ObjectBaseMdl.exp|.\AssemblyProcessFrm\ObjectBaseMdl.m
+BTV/000/CUS .\intel_a\code\lib\ObjectBaseMdl.lib|.\AssemblyProcessFrm\ObjectBaseMdl.m
+RTV/001/CUS .\intel_a\code\bin\ObjectBaseMdl.dll|.\AssemblyProcessFrm\ObjectBaseMdl.m
+INT/000/CUS .\intel_a\code\bin\ObjectBaseMdl.pdb|.\AssemblyProcessFrm\ObjectBaseMdl.m

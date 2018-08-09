@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssemblyProcessFrm", "AssemblyProcessFrm.vcproj", "{3734843F-BBE1-495F-B11B-05D321F0EBC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAATreeCtrlFrm", "CAATreeCtrlFrm.vcproj", "{0D5EFEA6-04C0-485F-A130-E7606A5DAE3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DisAssemblyUIMdl.m", "AssemblyProcessFrm\DisAssemblyUIMdl.m.vcproj", "{A9C45308-1F2D-4487-A5F3-D7AC5BDD0F09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileManagerMdl.m", "AssemblyProcessFrm\FileManagerMdl.m.vcproj", "{64912D8C-6970-44E9-BD38-EEF253633F2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjectBaseMdl.m", "AssemblyProcessFrm\ObjectBaseMdl.m.vcproj", "{387B7CA4-F641-4156-9813-27FD12E8E232}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PPRManagerMdl.m", "AssemblyProcessFrm\PPRManagerMdl.m.vcproj", "{CE29D434-FB6F-4B98-93DD-8293D9DA2B2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathManagerMdl.m", "AssemblyProcessFrm\PathManagerMdl.m.vcproj", "{E2125F67-1560-4250-A231-D38A474FF2C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathManagerUIMdl.m", "AssemblyProcessFrm\PathManagerUIMdl.m.vcproj", "{4525244E-6AD3-43AB-80B4-1B0EF39BFF12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessModelMdl.m", "AssemblyProcessFrm\ProcessModelMdl.m.vcproj", "{A9DFC3A1-5482-4F5B-B187-0C383418A3B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessNotesMdl.m", "AssemblyProcessFrm\ProcessNotesMdl.m.vcproj", "{F7FA1F5E-80E5-4C71-9AD6-B3E938627021}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcessUIMdl.m", "AssemblyProcessFrm\ProcessUIMdl.m.vcproj", "{368300B8-1CAB-482B-A723-9CFC1846BF76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VBAScriptMdl.m", "AssemblyProcessFrm\VBAScriptMdl.m.vcproj", "{B00768F9-1ACE-4D5B-8683-9C97EA1749D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ktTreeCtrlFrameUUID.m", "CAATreeCtrlFrm\ktTreeCtrlFrameUUID.m.vcproj", "{01477665-9BBB-456A-8CB8-0FFA6C3B8B89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ktTreeCtrlModule.m", "CAATreeCtrlFrm\ktTreeCtrlModule.m.vcproj", "{C6542A5F-320D-4FCA-BE47-D11EE9D0318E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ktTreeNodeImplement.m", "CAATreeCtrlFrm\ktTreeNodeImplement.m.vcproj", "{84F7F79C-BB13-4317-BB89-454C274E89F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ktTreeNodeInterface.m", "CAATreeCtrlFrm\ktTreeNodeInterface.m.vcproj", "{CD667705-2097-4C4D-9769-FF65F07A487E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3734843F-BBE1-495F-B11B-05D321F0EBC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3734843F-BBE1-495F-B11B-05D321F0EBC1}.Release|Win32.ActiveCfg = Release|Win32
+		{0D5EFEA6-04C0-485F-A130-E7606A5DAE3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D5EFEA6-04C0-485F-A130-E7606A5DAE3D}.Release|Win32.ActiveCfg = Release|Win32
+		{A9C45308-1F2D-4487-A5F3-D7AC5BDD0F09}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9C45308-1F2D-4487-A5F3-D7AC5BDD0F09}.Release|Win32.ActiveCfg = Release|Win32
+		{64912D8C-6970-44E9-BD38-EEF253633F2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64912D8C-6970-44E9-BD38-EEF253633F2B}.Release|Win32.ActiveCfg = Release|Win32
+		{387B7CA4-F641-4156-9813-27FD12E8E232}.Debug|Win32.ActiveCfg = Debug|Win32
+		{387B7CA4-F641-4156-9813-27FD12E8E232}.Release|Win32.ActiveCfg = Release|Win32
+		{CE29D434-FB6F-4B98-93DD-8293D9DA2B2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE29D434-FB6F-4B98-93DD-8293D9DA2B2E}.Release|Win32.ActiveCfg = Release|Win32
+		{E2125F67-1560-4250-A231-D38A474FF2C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2125F67-1560-4250-A231-D38A474FF2C5}.Release|Win32.ActiveCfg = Release|Win32
+		{4525244E-6AD3-43AB-80B4-1B0EF39BFF12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4525244E-6AD3-43AB-80B4-1B0EF39BFF12}.Release|Win32.ActiveCfg = Release|Win32
+		{A9DFC3A1-5482-4F5B-B187-0C383418A3B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9DFC3A1-5482-4F5B-B187-0C383418A3B6}.Release|Win32.ActiveCfg = Release|Win32
+		{F7FA1F5E-80E5-4C71-9AD6-B3E938627021}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7FA1F5E-80E5-4C71-9AD6-B3E938627021}.Release|Win32.ActiveCfg = Release|Win32
+		{368300B8-1CAB-482B-A723-9CFC1846BF76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{368300B8-1CAB-482B-A723-9CFC1846BF76}.Release|Win32.ActiveCfg = Release|Win32
+		{B00768F9-1ACE-4D5B-8683-9C97EA1749D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B00768F9-1ACE-4D5B-8683-9C97EA1749D1}.Release|Win32.ActiveCfg = Release|Win32
+		{01477665-9BBB-456A-8CB8-0FFA6C3B8B89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01477665-9BBB-456A-8CB8-0FFA6C3B8B89}.Release|Win32.ActiveCfg = Release|Win32
+		{C6542A5F-320D-4FCA-BE47-D11EE9D0318E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6542A5F-320D-4FCA-BE47-D11EE9D0318E}.Release|Win32.ActiveCfg = Release|Win32
+		{84F7F79C-BB13-4317-BB89-454C274E89F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84F7F79C-BB13-4317-BB89-454C274E89F5}.Release|Win32.ActiveCfg = Release|Win32
+		{CD667705-2097-4C4D-9769-FF65F07A487E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD667705-2097-4C4D-9769-FF65F07A487E}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "工序";
+BOK = "保存";
+Frame100.FrameBOMTree.Title = "BOM树";
+Frame100.Label015.Title = "                                               ";
+TabContainer002.TabPageProcess.Title = "工序属性";
+TabContainer002.TabPageProcess.FrameContent.Title = "工序内容";
+TabContainer002.TabPageProcess.FrameRemark.Title = "备注";
+TabContainer002.TabPageProcess.Frame104.LabelNum.Title = "工序编号：";
+TabContainer002.TabPageProcess.Frame104.LabelName.Title = "工序名称：";
+TabContainer002.TabPageProcess.Frame108.LabelBeginTime.Title = "开始时间：";
+TabContainer002.TabPageProcess.Frame108.LabelEndTime.Title = "结束时间：";
+TabContainer002.TabPageCheck.Title = "设置检验";
+TabContainer002.TabPageCheck.FrameCheckContent.Title = "检验内容";
+TabContainer002.TabPageCheck.FrameCheckResult.Title = "检验结果";
+Frame103.PushButtonSaveModel.Title = "保存工序模型";
+Frame103.PushButtonSaveFigure.Title = "保存工序图";
+Frame103.PushButtonReview.Title = "查看工序模型";
+Frame103.PushButtonFigure.Title = "查看工序图";
+// END WIZARD REPLACEMENT ZONE

@@ -1,0 +1,25 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "零部件可信度";
+BOK = "保存";
+Label002.Title = "成熟度评价：";
+Label005.Title = "控制度评价：";
+Label009.Title = "可逆性评价：";
+Label012.Title = "破坏性评价：";
+Label015.Title = "恶劣性评价：";
+Label018.Title = "复杂度评价：";
+ MultiList021.ColumnTitle1 = "模糊规则描述";
+ MultiList021.ColumnTitle2 = "可信度范围";
+CheckButton022.Title = "该零部件是否必须拆卸";
+Label023.Title = "可信度：1";
+ MultiList024.ColumnTitle1 = "模糊规则";
+ MultiList024.ColumnTitle2 = "可信度范围";
+ MultiList025.ColumnTitle1 = "模糊规则描述";
+ MultiList025.ColumnTitle2 = "可信度范围";
+ MultiList026.ColumnTitle1 = "模糊规则描述";
+ MultiList026.ColumnTitle2 = "可信度范围";
+ MultiList027.ColumnTitle1 = "模糊规则描述";
+ MultiList027.ColumnTitle2 = "可信度范围";
+ MultiList028.ColumnTitle1 = "模糊规则描述";
+ MultiList028.ColumnTitle2 = "可信度范围";
+Label030.Title = "拆卸原因：";
+// END WIZARD REPLACEMENT ZONE

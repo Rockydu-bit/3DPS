@@ -1,0 +1,5 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+Title = "打开工艺规划";
+PushButtonOpenFolder.Title = "打开文件夹";
+FrameHistory.Title = "操作历史";
+// END WIZARD REPLACEMENT ZONE

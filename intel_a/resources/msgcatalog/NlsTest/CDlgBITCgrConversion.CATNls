@@ -1,0 +1,7 @@
+Title = "[~CDlgBITCgrConversion,Title~ CGR批量转换]";
+RadioButtonPart.Title = "[~CDlgBITCgrConversion,RadioButtonPart.Title~ P錼t]";
+RadioButtonProduct.Title = "[~CDlgBITCgrConversion,RadioButtonProduct.Title~ Pr鴇點t]";
+PushButtonCGRAddress.Title = "[~CDlgBITCgrConversion,PushButtonCGRAddress.Title~ 保存CGR地址]";
+FrameMacroAddress.Title = "[~CDlgBITCgrConversion,FrameMacroAddress.Title~ 宏命令地址]";
+PushButtonBrowsePart.Title = "[~CDlgBITCgrConversion,PushButtonBrowsePart.Title~ 打开P錼t]";
+FrameCurrentMarcoCode.Title = "[~CDlgBITCgrConversion,FrameCurrentMarcoCode.Title~ 当前宏命令]";

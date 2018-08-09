@@ -1,0 +1,6 @@
+C:\Users\rt\Desktop\test\新建文件夹
+4
+H:\新建文件夹
+C:\Users\rt\Desktop\test
+H:\新建文件夹\新建文件夹
+C:\Users\rt\Desktop\test\新建文件夹
